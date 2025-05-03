@@ -64,15 +64,10 @@ function custom_wc_translations($translated){
    // 'Thank you' => ' আপনাকে অনেক ধন্যবাদ',
   //   'Billing address' => 'আপনার ঠিকানা',
     
+//this is a wocommerce function file code, translate english to Bangla 
 
-   
-     
     //'No products in the cart.' => 'কার্টে কোন পণ্য নেই।',
     //'Return To Shop' => 'শপে-এ ফিরে যান',
-    
-    
-
-
     
     
     );
