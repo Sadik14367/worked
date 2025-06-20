@@ -1,0 +1,58 @@
+<div class="mb-3">
+    <label for="editor">Post Description</label>
+    <script src="https://cdn.ckeditor.com/4.8.0/full-all/ckeditor.js"></script>
+    <textarea name="details" id="editor" cols="30" rows="30"></textarea>
+    <script type="text/javascript">
+        CKEDITOR.replace('editor', {
+            skin: 'moono',
+            enterMode: CKEDITOR.ENTER_BR,
+            shiftEnterMode: CKEDITOR.ENTER_P,
+            toolbar: [
+                { name: 'basicstyles', groups: ['basicstyles'], items: ['Bold', 'Italic', 'Underline', '-', 'TextColor', 'BGColor'] },
+                { name: 'styles', items: ['Format', 'Font', 'FontSize'] },
+                { name: 'scripts', items: ['Subscript', 'Superscript'] },
+                { name: 'justify', groups: ['blocks', 'align'], items: ['JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'] },
+                { name: 'paragraph', groups: ['list', 'indent'], items: ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent'] },
+                { name: 'links', items: ['Link', 'Unlink'] },
+                { name: 'insert', items: ['Image'] },
+                { name: 'spell', items: ['jQuerySpellChecker'] },
+                { name: 'table', items: ['Table'] },
+                { name: 'source', items: ['Source'] }
+            ]
+        });
+
+        // Hide the notifications area including version notice after a slight delay
+        setTimeout(function() {
+            var notificationsArea = document.querySelector('.cke_notifications_area');
+            if (notificationsArea) {
+                notificationsArea.style.display = 'none';
+            }
+        }, 1000); // Adjust the delay if needed
+    </script>
+
+    <style>
+        /* Hide the notifications area in CKEditor */
+        .cke_notifications_area {
+            display: none !important;
+        }
+    </style>
+</div>
+
+
+
+    <script>
+        // Hide the notifications area including version notice after a slight delay
+        setTimeout(function() {
+            var notificationsArea = document.querySelector('.cke_notifications_area');
+            if (notificationsArea) {
+                notificationsArea.style.display = 'none';
+            }
+        }, 1000); // Adjust the delay if needed
+    </script>
+
+    <style>
+        /* Hide the notifications area in CKEditor */
+        .cke_notifications_area {
+            display: none !important;
+        }
+    </style>
