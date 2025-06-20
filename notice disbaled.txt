@@ -38,7 +38,7 @@
     </style>
 </div>
 
-
+<!--upper script and div alwadys will not worked for all script or website , that moment use down of script script and css to hide notice of this error!-->
 
     <script>
         // Hide the notifications area including version notice after a slight delay
